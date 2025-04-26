@@ -54,6 +54,26 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <36 16>;
         };
+
+        Up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <25 33>;
+        };
+
+        Down {
+            bindings = <&kp DOWN>;
+            key-positions = <24 32>;
+        };
+
+        Right {
+            bindings = <&kp RIGHT>;
+            key-positions = <33 34>;
+        };
+
+        LeftArrow {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
