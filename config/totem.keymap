@@ -74,6 +74,16 @@
             bindings = <&kp LEFT_ARROW>;
             key-positions = <32 33>;
         };
+
+        Copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <23 22>;
+        };
+
+        Paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <23 24>;
+        };
     };
 
     keymap {
